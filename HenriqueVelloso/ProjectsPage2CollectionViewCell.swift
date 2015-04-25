@@ -33,7 +33,7 @@ class ProjectsPage2CollectionViewCell:  UICollectionViewCell {
         ]
         
         imgTrapRaider.animationImages = images
-        imgTrapRaider.animationDuration = 4
+        imgTrapRaider.animationDuration = 3
         imgTrapRaider.animationRepeatCount = 0
         imgTrapRaider.startAnimating()
         

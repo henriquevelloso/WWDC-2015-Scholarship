@@ -581,9 +581,8 @@
                                                             </variation>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4s-cD-yfa">
-                                                            <rect key="frame" x="8" y="506" width="301" height="66"/>
+                                                            <rect key="frame" x="8" y="490" width="301" height="49"/>
                                                             <string key="text">I am Henrique Velloso, Brazilian, 32 years old. 
-
 I was born in a country town and moved to the capital to study and work with IT.</string>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                             <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -601,7 +600,7 @@ I was born in a country town and moved to the capital to study and work with IT.
                                                         <constraint firstItem="wIm-vw-OT8" firstAttribute="leading" secondItem="p1m-yM-oGc" secondAttribute="leading" id="ciC-LO-iNu"/>
                                                         <constraint firstItem="wIm-vw-OT8" firstAttribute="height" secondItem="p1m-yM-oGc" secondAttribute="height" multiplier="0.65" id="hA2-qJ-EeH"/>
                                                         <constraint firstItem="wIm-vw-OT8" firstAttribute="top" secondItem="5lD-ze-cV8" secondAttribute="bottom" id="hqR-Pk-mtd"/>
-                                                        <constraint firstItem="Z4s-cD-yfa" firstAttribute="top" secondItem="wIm-vw-OT8" secondAttribute="bottom" constant="32" id="lYO-s5-MYO"/>
+                                                        <constraint firstItem="Z4s-cD-yfa" firstAttribute="top" secondItem="wIm-vw-OT8" secondAttribute="bottom" constant="16" id="lYO-s5-MYO"/>
                                                         <constraint firstItem="5lD-ze-cV8" firstAttribute="top" secondItem="p1m-yM-oGc" secondAttribute="top" id="tsl-cE-Loa"/>
                                                         <constraint firstItem="5lD-ze-cV8" firstAttribute="centerX" secondItem="90S-0C-ySa" secondAttribute="centerX" id="vsb-Bv-avB"/>
                                                         <constraint firstItem="5lD-ze-cV8" firstAttribute="centerY" secondItem="90S-0C-ySa" secondAttribute="centerY" constant="0.5" id="wfY-su-b8v"/>
@@ -665,7 +664,7 @@ I was born in a country town and moved to the capital to study and work with IT.
                                                             </variation>
                                                         </mapView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I live, work and study in Porto Alegre, state of Rio Grande do Sul, Brazil." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="rJf-8h-74c">
-                                                            <rect key="frame" x="8" y="506" width="301" height="33"/>
+                                                            <rect key="frame" x="8" y="490" width="301" height="33"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                             <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -675,7 +674,7 @@ I was born in a country town and moved to the capital to study and work with IT.
                                                     <constraints>
                                                         <constraint firstItem="yNE-cX-YgG" firstAttribute="leading" secondItem="unh-uX-R0R" secondAttribute="leading" id="0WP-Ef-opo"/>
                                                         <constraint firstItem="rJf-8h-74c" firstAttribute="leading" secondItem="unh-uX-R0R" secondAttribute="leading" constant="8" id="3Rx-Av-pjd"/>
-                                                        <constraint firstItem="rJf-8h-74c" firstAttribute="top" secondItem="kRe-ql-Nd8" secondAttribute="bottom" constant="32" id="9Wo-fL-B9y"/>
+                                                        <constraint firstItem="rJf-8h-74c" firstAttribute="top" secondItem="kRe-ql-Nd8" secondAttribute="bottom" constant="16" id="9Wo-fL-B9y"/>
                                                         <constraint firstAttribute="height" secondItem="kRe-ql-Nd8" secondAttribute="height" multiplier="1.5" id="FKk-EP-LFV"/>
                                                         <constraint firstItem="kRe-ql-Nd8" firstAttribute="top" secondItem="ce6-Gx-FAh" secondAttribute="bottom" id="HeS-ZW-62N"/>
                                                         <constraint firstAttribute="trailing" secondItem="rJf-8h-74c" secondAttribute="trailing" constant="8" id="JJs-bD-43g"/>
@@ -806,7 +805,7 @@ I was born in a country town and moved to the capital to study and work with IT.
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="projectPage1" id="VZR-bU-xn7" userLabel="Trap Raider" customClass="ProjectsPage1CollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" reuseIdentifier="projectPage1" id="VZR-bU-xn7" userLabel="Trap Raider" customClass="ProjectsPage1CollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -857,6 +856,9 @@ Created in August/2014 </string>
                                                             <state key="normal" image="downloadBadge">
                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
+                                                            <connections>
+                                                                <action selector="appStoreAction:" destination="VZR-bU-xn7" eventType="touchUpInside" id="UR3-TQ-1vT"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -892,7 +894,7 @@ Created in August/2014 </string>
                                             <outlet property="viewContainer" destination="bun-7f-LEE" id="hFj-fE-KCf"/>
                                         </connections>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="projectPage2" id="3bj-Pj-945" userLabel="Ruim de Roda" customClass="ProjectsPage2CollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" reuseIdentifier="projectPage2" id="3bj-Pj-945" userLabel="Ruim de Roda" customClass="ProjectsPage2CollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -987,7 +989,7 @@ Created in April/2015</string>
                                             <outlet property="viewContainer" destination="bjX-ih-1eH" id="uk1-9T-5n0"/>
                                         </connections>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="projectPage3" id="kV5-mH-oxe" userLabel="Flockr" customClass="ProjectsPage3CollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" reuseIdentifier="projectPage3" id="kV5-mH-oxe" userLabel="Flockr" customClass="ProjectsPage3CollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1081,7 +1083,7 @@ Created in February/2015</string>
                                             <outlet property="viewContainer" destination="1pQ-mW-igU" id="KMw-e3-Mkb"/>
                                         </connections>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="projectPage4" id="RkY-or-fUb" userLabel="Facelette" customClass="ProjectsPage4CollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" reuseIdentifier="projectPage4" id="RkY-or-fUb" userLabel="Facelette" customClass="ProjectsPage4CollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1115,8 +1117,10 @@ Created in February/2015</string>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facelette01" translatesAutoresizingMaskIntoConstraints="NO" id="Awv-fG-dXr">
                                                             <rect key="frame" x="0.0" y="40" width="317" height="434"/>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxb-Sn-MXo">
-                                                            <rect key="frame" x="8" y="490" width="301" height="17"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxb-Sn-MXo">
+                                                            <rect key="frame" x="8" y="490" width="301" height="49"/>
+                                                            <string key="text">App to randomly find users who want to talk via FaceTime. Developed using Objective-C.
+Created in December/2010</string>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                             <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -1173,7 +1177,7 @@ Created in February/2015</string>
                                             <outlet property="viewContainer" destination="wtI-1n-cJY" id="l8t-nt-ZwS"/>
                                         </connections>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="projectPage5" id="ndF-ty-r44" userLabel="Street Music Map" customClass="ProjectsPageCollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" reuseIdentifier="projectPage5" id="ndF-ty-r44" userLabel="Street Music Map" customClass="ProjectsPage5CollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1204,11 +1208,14 @@ Created in February/2015</string>
                                                                 </mask>
                                                             </variation>
                                                         </label>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A8d-TJ-SFt">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="music01" translatesAutoresizingMaskIntoConstraints="NO" id="A8d-TJ-SFt">
                                                             <rect key="frame" x="0.0" y="40" width="317" height="434"/>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TrG-qf-vtr">
-                                                            <rect key="frame" x="8" y="490" width="301" height="17"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TrG-qf-vtr">
+                                                            <rect key="frame" x="8" y="490" width="301" height="82"/>
+                                                            <string key="text">App for StreetMusicMap.com. This is a collab line up of street music performers from all over the world. Developed using Objective-C.
+Created in March/2015
+</string>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                             <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -1261,10 +1268,11 @@ Created in February/2015</string>
                                         </constraints>
                                         <connections>
                                             <outlet property="imgHeader" destination="ufX-6r-KKB" id="DbY-bO-F2U"/>
+                                            <outlet property="imgTrapRaider" destination="A8d-TJ-SFt" id="FAj-Q6-35t"/>
                                             <outlet property="viewContainer" destination="CCi-FZ-d0e" id="slD-WS-fe5"/>
                                         </connections>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="projectPage6" id="yNy-BG-mE2" userLabel="RedBull Station" customClass="ProjectsPageCollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" reuseIdentifier="projectPage6" id="yNy-BG-mE2" userLabel="RedBull Station" customClass="ProjectsPage6CollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1295,11 +1303,13 @@ Created in February/2015</string>
                                                                 </mask>
                                                             </variation>
                                                         </label>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FuY-f1-W9f">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redbull01" translatesAutoresizingMaskIntoConstraints="NO" id="FuY-f1-W9f">
                                                             <rect key="frame" x="0.0" y="40" width="317" height="434"/>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQx-Vq-NJ4">
-                                                            <rect key="frame" x="8" y="490" width="301" height="17"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQx-Vq-NJ4">
+                                                            <rect key="frame" x="8" y="490" width="301" height="66"/>
+                                                            <string key="text">Prototype application to demonstrate the use of beacons inside of RedBull Station in São Paulo. Developed using Swift
+Created in April/2015</string>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                             <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -1311,7 +1321,7 @@ Created in February/2015</string>
                                                                 <constraint firstAttribute="width" constant="133" id="gex-rB-4Fg"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
-                                                            <state key="normal" title="In Development">
+                                                            <state key="normal" title="In Development of final version">
                                                                 <color key="titleColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             </state>
@@ -1352,10 +1362,11 @@ Created in February/2015</string>
                                         </constraints>
                                         <connections>
                                             <outlet property="imgHeader" destination="ixt-hU-Cle" id="dS5-dF-MDN"/>
+                                            <outlet property="imgTrapRaider" destination="FuY-f1-W9f" id="3Yx-ue-aCc"/>
                                             <outlet property="viewContainer" destination="T5K-2L-RtE" id="IMN-qy-Ii0"/>
                                         </connections>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="projectPage7" id="vLQ-4B-iEp" userLabel="Pink Elephant" customClass="ProjectsPageCollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" reuseIdentifier="projectPage7" id="vLQ-4B-iEp" userLabel="Pink Elephant" customClass="ProjectsPage7CollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1386,11 +1397,13 @@ Created in February/2015</string>
                                                                 </mask>
                                                             </variation>
                                                         </label>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zvE-Me-dXb">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pink01" translatesAutoresizingMaskIntoConstraints="NO" id="zvE-Me-dXb">
                                                             <rect key="frame" x="0.0" y="40" width="317" height="434"/>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9e-gA-yu9">
-                                                            <rect key="frame" x="8" y="490" width="301" height="17"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9e-gA-yu9">
+                                                            <rect key="frame" x="8" y="490" width="301" height="66"/>
+                                                            <string key="text">App to enable the payment of their expenses in the Pink Elephant Nigth Club inside of application. Developed in Objective-C
+Created in May/2012</string>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                             <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -1443,6 +1456,7 @@ Created in February/2015</string>
                                         </constraints>
                                         <connections>
                                             <outlet property="imgHeader" destination="GME-cd-Y8U" id="sEU-t9-xP3"/>
+                                            <outlet property="imgTrapRaider" destination="zvE-Me-dXb" id="fNc-Hd-7eN"/>
                                             <outlet property="viewContainer" destination="IpB-JI-LIn" id="5Jh-3u-tIP"/>
                                         </connections>
                                     </collectionViewCell>
@@ -2430,8 +2444,8 @@ Created in February/2015</string>
                                                                 <constraint firstAttribute="height" constant="40" id="jEt-2G-gVA"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="IT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1V7-iT-OdA">
-                                                            <rect key="frame" x="152" y="8" width="15" height="23"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I.T." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1V7-iT-OdA">
+                                                            <rect key="frame" x="147" y="8" width="24" height="23"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="99" id="fT2-Ol-VEI"/>
                                                             </constraints>
@@ -2485,8 +2499,8 @@ Created in February/2015</string>
                                                                 <constraint firstAttribute="height" constant="40" id="T0d-dO-owp"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hobbies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvS-bC-Nkp">
-                                                            <rect key="frame" x="125" y="8" width="69" height="23"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobbies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvS-bC-Nkp">
+                                                            <rect key="frame" x="124" y="8" width="69" height="23"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="99" id="HkH-Al-w0e"/>
                                                             </constraints>
@@ -2696,10 +2710,13 @@ Created in February/2015</string>
         <image name="aboutMeBackground" width="750" height="919"/>
         <image name="arrowDown" width="24" height="15"/>
         <image name="downloadBadge" width="500" height="148"/>
-        <image name="facelette01" width="1632" height="1378"/>
-        <image name="flockr01" width="1636" height="1160"/>
+        <image name="facelette01" width="1630" height="1089"/>
+        <image name="flockr01" width="1084" height="724"/>
         <image name="me" width="1000" height="1500"/>
-        <image name="ruim01" width="1799" height="1334"/>
+        <image name="music01" width="1947" height="1300"/>
+        <image name="pink01" width="1951" height="1300"/>
+        <image name="redbull01" width="1947" height="1300"/>
+        <image name="ruim01" width="1963" height="1311"/>
         <image name="slide" width="1920" height="835"/>
         <image name="trap01" width="1840" height="1365"/>
     </resources>

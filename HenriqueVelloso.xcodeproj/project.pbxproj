@@ -30,6 +30,9 @@
 		C561DD671AEB72B30008A148 /* ProjectsPage2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C561DD661AEB72B30008A148 /* ProjectsPage2CollectionViewCell.swift */; };
 		C561DD691AEB7B3A0008A148 /* ProjectsPage3CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C561DD681AEB7B3A0008A148 /* ProjectsPage3CollectionViewCell.swift */; };
 		C561DD6B1AEB84FC0008A148 /* ProjectsPage4CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C561DD6A1AEB84FC0008A148 /* ProjectsPage4CollectionViewCell.swift */; };
+		C561DD6E1AEC21060008A148 /* ProjectsPage5CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C561DD6D1AEC21060008A148 /* ProjectsPage5CollectionViewCell.swift */; };
+		C561DD701AEC211B0008A148 /* ProjectsPage6CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C561DD6F1AEC211B0008A148 /* ProjectsPage6CollectionViewCell.swift */; };
+		C561DD721AEC21260008A148 /* ProjectsPage7CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C561DD711AEC21260008A148 /* ProjectsPage7CollectionViewCell.swift */; };
 		C5D756B41AE4865600E4F168 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D756B31AE4865600E4F168 /* ProjectsViewController.swift */; };
 		C5D756BE1AE49E6F00E4F168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D756BD1AE49E6F00E4F168 /* Main.storyboard */; };
 		C5D756C31AE528EE00E4F168 /* AboutPage1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D756C11AE528EE00E4F168 /* AboutPage1CollectionViewCell.swift */; };
@@ -74,6 +77,9 @@
 		C561DD661AEB72B30008A148 /* ProjectsPage2CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsPage2CollectionViewCell.swift; sourceTree = "<group>"; };
 		C561DD681AEB7B3A0008A148 /* ProjectsPage3CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsPage3CollectionViewCell.swift; sourceTree = "<group>"; };
 		C561DD6A1AEB84FC0008A148 /* ProjectsPage4CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsPage4CollectionViewCell.swift; sourceTree = "<group>"; };
+		C561DD6D1AEC21060008A148 /* ProjectsPage5CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsPage5CollectionViewCell.swift; sourceTree = "<group>"; };
+		C561DD6F1AEC211B0008A148 /* ProjectsPage6CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsPage6CollectionViewCell.swift; sourceTree = "<group>"; };
+		C561DD711AEC21260008A148 /* ProjectsPage7CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsPage7CollectionViewCell.swift; sourceTree = "<group>"; };
 		C5D756B31AE4865600E4F168 /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 		C5D756BD1AE49E6F00E4F168 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C5D756C11AE528EE00E4F168 /* AboutPage1CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutPage1CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -103,11 +109,10 @@
 		C55A19E81AE17B2600604944 = {
 			isa = PBXGroup;
 			children = (
-				C561DD431AEA44690008A148 /* MapKit.framework */,
-				C561DD411AEA434E0008A148 /* CoreLocation.framework */,
 				C55A19F31AE17B2700604944 /* HenriqueVelloso */,
 				C55A1A091AE17B2700604944 /* HenriqueVellosoTests */,
 				C55A19F21AE17B2700604944 /* Products */,
+				C561DD6C1AEBF9FE0008A148 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +223,15 @@
 			name = Interests;
 			sourceTree = "<group>";
 		};
+		C561DD6C1AEBF9FE0008A148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C561DD431AEA44690008A148 /* MapKit.framework */,
+				C561DD411AEA434E0008A148 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5D756B91AE48DB400E4F168 /* About */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +251,9 @@
 				C561DD661AEB72B30008A148 /* ProjectsPage2CollectionViewCell.swift */,
 				C561DD681AEB7B3A0008A148 /* ProjectsPage3CollectionViewCell.swift */,
 				C561DD6A1AEB84FC0008A148 /* ProjectsPage4CollectionViewCell.swift */,
+				C561DD6D1AEC21060008A148 /* ProjectsPage5CollectionViewCell.swift */,
+				C561DD6F1AEC211B0008A148 /* ProjectsPage6CollectionViewCell.swift */,
+				C561DD711AEC21260008A148 /* ProjectsPage7CollectionViewCell.swift */,
 			);
 			name = Projects;
 			sourceTree = "<group>";
@@ -362,6 +379,7 @@
 				C5D756B41AE4865600E4F168 /* ProjectsViewController.swift in Sources */,
 				C5D756C31AE528EE00E4F168 /* AboutPage1CollectionViewCell.swift in Sources */,
 				C5D756C71AE5294800E4F168 /* AboutPage2CollectionViewCell.swift in Sources */,
+				C561DD721AEC21260008A148 /* ProjectsPage7CollectionViewCell.swift in Sources */,
 				C561DD691AEB7B3A0008A148 /* ProjectsPage3CollectionViewCell.swift in Sources */,
 				C561DD671AEB72B30008A148 /* ProjectsPage2CollectionViewCell.swift in Sources */,
 				C55A1A321AE304D100604944 /* AboutViewController.swift in Sources */,
@@ -371,9 +389,11 @@
 				C561DD511AEA8D590008A148 /* EducationPageCollectionViewCell.swift in Sources */,
 				C55A1A291AE19B8600604944 /* WelcomeViewController.swift in Sources */,
 				C561DD4B1AEA8CFF0008A148 /* EducationViewController.swift in Sources */,
+				C561DD701AEC211B0008A148 /* ProjectsPage6CollectionViewCell.swift in Sources */,
 				C55A1A2E1AE3044500604944 /* FeedViewController.swift in Sources */,
 				C561DD571AEA8DB40008A148 /* ProfessionalPageCollectionViewCell.swift in Sources */,
 				C561DD6B1AEB84FC0008A148 /* ProjectsPage4CollectionViewCell.swift in Sources */,
+				C561DD6E1AEC21060008A148 /* ProjectsPage5CollectionViewCell.swift in Sources */,
 				C55A19F71AE17B2700604944 /* AppDelegate.swift in Sources */,
 				C561DD651AEB66660008A148 /* ProjectsPage1CollectionViewCell.swift in Sources */,
 				C561DD471AEA87450008A148 /* SkillsViewController.swift in Sources */,

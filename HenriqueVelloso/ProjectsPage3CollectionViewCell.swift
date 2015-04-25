@@ -30,11 +30,12 @@ class ProjectsPage3CollectionViewCell: UICollectionViewCell {
         var images: [UIImage] = [
             UIImage(named: "flockr01")!,
             UIImage(named: "flockr02")!,
-            UIImage(named: "flockr03")!
+            UIImage(named: "flockr03")!,
+            UIImage(named: "flockr04")!
         ]
         
         imgTrapRaider.animationImages = images
-        imgTrapRaider.animationDuration = 6
+        imgTrapRaider.animationDuration = 5
         imgTrapRaider.animationRepeatCount = 0
         imgTrapRaider.startAnimating()
         

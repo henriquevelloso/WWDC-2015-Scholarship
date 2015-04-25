@@ -34,11 +34,19 @@ class ProjectsPage1CollectionViewCell:  UICollectionViewCell {
         ]
         
         imgTrapRaider.animationImages = images
-        imgTrapRaider.animationDuration = 6
+        imgTrapRaider.animationDuration = 4
         imgTrapRaider.animationRepeatCount = 0
         imgTrapRaider.startAnimating()
         
     }
+    
+    @IBAction func appStoreAction(sender: AnyObject) {
+        if let url = NSURL(string: "https://itunes.apple.com/gd/app/trap-raider/id883333968?mt=8") {
+            UIApplication.sharedApplication().openURL(url)
+        }
+        
+    }
+    
     
     
     
