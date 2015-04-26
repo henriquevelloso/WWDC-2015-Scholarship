@@ -1670,14 +1670,14 @@ Now I have the knowledge in the following skills:
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="design" translatesAutoresizingMaskIntoConstraints="NO" id="bAn-ZJ-XmD">
                                                             <rect key="frame" x="0.0" y="39" width="317" height="267"/>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before working with IT, I have 5 years experience with Graphic Design." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4VO-uW-C49">
-                                                            <rect key="frame" x="8" y="322" width="301" height="33"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before working with IT, I have 5 years experience with Graphic Design and I have the knowledge in the following skills:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4VO-uW-C49">
+                                                            <rect key="frame" x="8" y="322" width="301" height="49"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                             <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAh-rj-Smu">
-                                                            <rect key="frame" x="8" y="371" width="301" height="82"/>
+                                                            <rect key="frame" x="8" y="387" width="301" height="82"/>
                                                             <string key="text">• Adobe Photoshop
 • Corel Draw
 • Photography
@@ -1828,14 +1828,44 @@ Now I have the knowledge in the following skills:
                                                                 </mask>
                                                             </variation>
                                                         </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graduate_caps" translatesAutoresizingMaskIntoConstraints="NO" id="0gB-KK-31f">
+                                                            <rect key="frame" x="0.0" y="39" width="317" height="401"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before working with IT, I have 5 years experience with Graphic Design and I have the knowledge in the following skills:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV4-yt-XeA">
+                                                            <rect key="frame" x="8" y="456" width="301" height="49"/>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                                            <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFo-xI-rZ1">
+                                                            <rect key="frame" x="8" y="521" width="301" height="82"/>
+                                                            <string key="text">• Adobe Photoshop
+• Corel Draw
+• Photography
+• Typography
+• Creativity</string>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                                            <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
+                                                        <constraint firstItem="gV4-yt-XeA" firstAttribute="leading" secondItem="glc-jx-DuE" secondAttribute="leading" constant="8" id="Fv2-C6-Wi7"/>
+                                                        <constraint firstItem="gV4-yt-XeA" firstAttribute="top" secondItem="0gB-KK-31f" secondAttribute="bottom" constant="16" id="JHS-kg-qxj"/>
+                                                        <constraint firstItem="zFo-xI-rZ1" firstAttribute="leading" secondItem="glc-jx-DuE" secondAttribute="leading" constant="8" id="K7K-Hn-Ndy"/>
+                                                        <constraint firstAttribute="trailing" secondItem="gV4-yt-XeA" secondAttribute="trailing" constant="8" id="Q51-ra-juO"/>
                                                         <constraint firstItem="YPV-0G-NBb" firstAttribute="leading" secondItem="glc-jx-DuE" secondAttribute="leading" id="RKJ-8E-wLZ"/>
                                                         <constraint firstItem="YPV-0G-NBb" firstAttribute="centerX" secondItem="iTJ-uf-u4f" secondAttribute="centerX" id="TJe-qP-cDE"/>
                                                         <constraint firstAttribute="trailing" secondItem="YPV-0G-NBb" secondAttribute="trailing" id="YSm-y5-1uP"/>
                                                         <constraint firstItem="YPV-0G-NBb" firstAttribute="centerY" secondItem="iTJ-uf-u4f" secondAttribute="centerY" id="bOc-zm-xBE"/>
+                                                        <constraint firstItem="0gB-KK-31f" firstAttribute="top" secondItem="iTJ-uf-u4f" secondAttribute="bottom" constant="8" id="euW-5e-mjx"/>
+                                                        <constraint firstAttribute="trailing" secondItem="0gB-KK-31f" secondAttribute="trailing" id="hfo-zF-Rcz"/>
+                                                        <constraint firstItem="zFo-xI-rZ1" firstAttribute="top" secondItem="gV4-yt-XeA" secondAttribute="bottom" constant="16" id="qrn-GS-1QV"/>
                                                         <constraint firstItem="YPV-0G-NBb" firstAttribute="top" secondItem="glc-jx-DuE" secondAttribute="top" id="rNL-Rp-z6z"/>
+                                                        <constraint firstAttribute="trailing" secondItem="zFo-xI-rZ1" secondAttribute="trailing" constant="8" id="wy2-eT-kJt"/>
+                                                        <constraint firstItem="0gB-KK-31f" firstAttribute="leading" secondItem="glc-jx-DuE" secondAttribute="leading" id="x5h-oj-46s"/>
+                                                        <constraint firstItem="0gB-KK-31f" firstAttribute="height" secondItem="glc-jx-DuE" secondAttribute="height" multiplier="0.6" id="zFr-fE-hrG"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -1883,14 +1913,44 @@ Now I have the knowledge in the following skills:
                                                                 </mask>
                                                             </variation>
                                                         </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bepid" translatesAutoresizingMaskIntoConstraints="NO" id="lRS-ZG-vsd">
+                                                            <rect key="frame" x="0.0" y="39" width="317" height="401"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before working with IT, I have 5 years experience with Graphic Design and I have the knowledge in the following skills:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dvb-HH-bvk">
+                                                            <rect key="frame" x="8" y="456" width="301" height="49"/>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                                            <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpn-bm-klw">
+                                                            <rect key="frame" x="8" y="521" width="301" height="82"/>
+                                                            <string key="text">• Adobe Photoshop
+• Corel Draw
+• Photography
+• Typography
+• Creativity</string>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                                            <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="798-Oq-BiM" secondAttribute="trailing" id="29i-rF-2KB"/>
                                                         <constraint firstItem="798-Oq-BiM" firstAttribute="centerY" secondItem="atC-X2-WGQ" secondAttribute="centerY" id="Any-IX-nb0"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Dvb-HH-bvk" secondAttribute="trailing" constant="8" id="PcV-gr-ic4"/>
+                                                        <constraint firstItem="lRS-ZG-vsd" firstAttribute="leading" secondItem="qk1-uy-I82" secondAttribute="leading" id="RVm-K3-m22"/>
+                                                        <constraint firstItem="Hpn-bm-klw" firstAttribute="top" secondItem="Dvb-HH-bvk" secondAttribute="bottom" constant="16" id="XVU-Uu-kaV"/>
+                                                        <constraint firstItem="Dvb-HH-bvk" firstAttribute="top" secondItem="lRS-ZG-vsd" secondAttribute="bottom" constant="16" id="YCd-BL-i0S"/>
+                                                        <constraint firstAttribute="trailing" secondItem="lRS-ZG-vsd" secondAttribute="trailing" id="fOV-RX-17n"/>
                                                         <constraint firstItem="798-Oq-BiM" firstAttribute="top" secondItem="qk1-uy-I82" secondAttribute="top" id="gKb-Tc-Reu"/>
+                                                        <constraint firstItem="lRS-ZG-vsd" firstAttribute="height" secondItem="qk1-uy-I82" secondAttribute="height" multiplier="0.6" id="gfr-lG-V59"/>
                                                         <constraint firstItem="798-Oq-BiM" firstAttribute="leading" secondItem="qk1-uy-I82" secondAttribute="leading" id="gjY-QX-Zum"/>
+                                                        <constraint firstItem="Hpn-bm-klw" firstAttribute="leading" secondItem="qk1-uy-I82" secondAttribute="leading" constant="8" id="jcL-v7-x8D"/>
                                                         <constraint firstItem="798-Oq-BiM" firstAttribute="centerX" secondItem="atC-X2-WGQ" secondAttribute="centerX" id="lld-0k-gTG"/>
+                                                        <constraint firstItem="lRS-ZG-vsd" firstAttribute="top" secondItem="atC-X2-WGQ" secondAttribute="bottom" constant="8" id="lsF-mn-IMT"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Hpn-bm-klw" secondAttribute="trailing" constant="8" id="ohn-kc-4UX"/>
+                                                        <constraint firstItem="Dvb-HH-bvk" firstAttribute="leading" secondItem="qk1-uy-I82" secondAttribute="leading" constant="8" id="smu-mG-TEF"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -1923,8 +1983,8 @@ Now I have the knowledge in the following skills:
                                                                 <constraint firstAttribute="height" constant="40" id="0GE-oa-vc6"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Courses" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5z-YN-Xdo">
-                                                            <rect key="frame" x="124" y="8" width="69" height="23"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Training" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5z-YN-Xdo">
+                                                            <rect key="frame" x="127" y="8" width="63" height="23"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="99" id="UHJ-Mb-zAA"/>
                                                             </constraints>
@@ -1938,14 +1998,44 @@ Now I have the knowledge in the following skills:
                                                                 </mask>
                                                             </variation>
                                                         </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="books" translatesAutoresizingMaskIntoConstraints="NO" id="q5G-NX-YYt">
+                                                            <rect key="frame" x="0.0" y="39" width="317" height="401"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before working with IT, I have 5 years experience with Graphic Design and I have the knowledge in the following skills:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4n-5y-mCI">
+                                                            <rect key="frame" x="8" y="456" width="301" height="49"/>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                                            <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zH0-dP-Dve">
+                                                            <rect key="frame" x="8" y="521" width="301" height="82"/>
+                                                            <string key="text">• Adobe Photoshop
+• Corel Draw
+• Photography
+• Typography
+• Creativity</string>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                                            <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
+                                                        <constraint firstItem="q5G-NX-YYt" firstAttribute="height" secondItem="wMd-40-dhI" secondAttribute="height" multiplier="0.6" id="3Up-2U-xAH"/>
                                                         <constraint firstAttribute="trailing" secondItem="OxS-QS-ius" secondAttribute="trailing" id="8Md-Ct-WV5"/>
+                                                        <constraint firstItem="q4n-5y-mCI" firstAttribute="leading" secondItem="wMd-40-dhI" secondAttribute="leading" constant="8" id="CmN-VQ-dZD"/>
                                                         <constraint firstItem="r5z-YN-Xdo" firstAttribute="centerY" secondItem="OxS-QS-ius" secondAttribute="centerY" id="EyF-UW-gXZ"/>
+                                                        <constraint firstItem="q5G-NX-YYt" firstAttribute="top" secondItem="r5z-YN-Xdo" secondAttribute="bottom" constant="8" id="FAz-23-BmM"/>
+                                                        <constraint firstItem="q5G-NX-YYt" firstAttribute="leading" secondItem="wMd-40-dhI" secondAttribute="leading" id="M4x-XM-SMU"/>
                                                         <constraint firstItem="OxS-QS-ius" firstAttribute="top" secondItem="wMd-40-dhI" secondAttribute="top" id="Mne-xS-xu0"/>
+                                                        <constraint firstItem="zH0-dP-Dve" firstAttribute="leading" secondItem="wMd-40-dhI" secondAttribute="leading" constant="8" id="Nyc-x3-J8i"/>
+                                                        <constraint firstItem="zH0-dP-Dve" firstAttribute="top" secondItem="q4n-5y-mCI" secondAttribute="bottom" constant="16" id="XuS-F7-Rsb"/>
+                                                        <constraint firstAttribute="trailing" secondItem="zH0-dP-Dve" secondAttribute="trailing" constant="8" id="e5r-qk-fFy"/>
                                                         <constraint firstItem="r5z-YN-Xdo" firstAttribute="centerX" secondItem="OxS-QS-ius" secondAttribute="centerX" id="jBh-yo-BIx"/>
+                                                        <constraint firstItem="q4n-5y-mCI" firstAttribute="top" secondItem="q5G-NX-YYt" secondAttribute="bottom" constant="16" id="qVF-6p-CKI"/>
                                                         <constraint firstItem="OxS-QS-ius" firstAttribute="leading" secondItem="wMd-40-dhI" secondAttribute="leading" id="rUK-bP-Y5P"/>
+                                                        <constraint firstAttribute="trailing" secondItem="q5G-NX-YYt" secondAttribute="trailing" id="wWj-th-U65"/>
+                                                        <constraint firstAttribute="trailing" secondItem="q4n-5y-mCI" secondAttribute="trailing" constant="8" id="zvb-Mp-aDa"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -1960,62 +2050,6 @@ Now I have the knowledge in the following skills:
                                         <connections>
                                             <outlet property="imgHeader" destination="OxS-QS-ius" id="07v-TW-Cvk"/>
                                             <outlet property="viewContainer" destination="wMd-40-dhI" id="aGZ-g4-h4T"/>
-                                        </connections>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="educationPage4" id="cqk-7s-jAd" userLabel="Facelette" customClass="ProjectsPageCollectionViewCell" customModule="HenriqueVelloso" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="349" height="700"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zYk-Cz-kGh" userLabel="View Container">
-                                                    <rect key="frame" x="16" y="16" width="317" height="668"/>
-                                                    <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EducationBackground" translatesAutoresizingMaskIntoConstraints="NO" id="bFh-jl-GUp">
-                                                            <rect key="frame" x="0.0" y="0.0" width="317" height="40"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="40" id="vnY-mq-kpJ"/>
-                                                            </constraints>
-                                                        </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jc-Ec-5gE">
-                                                            <rect key="frame" x="155" y="7" width="8" height="25"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="99" id="G3u-9G-etZ"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
-                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                            <nil key="highlightedColor"/>
-                                                            <color key="shadowColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <size key="shadowOffset" width="0.0" height="1"/>
-                                                            <variation key="default">
-                                                                <mask key="constraints">
-                                                                    <exclude reference="G3u-9G-etZ"/>
-                                                                </mask>
-                                                            </variation>
-                                                        </label>
-                                                    </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstItem="bFh-jl-GUp" firstAttribute="centerX" secondItem="3jc-Ec-5gE" secondAttribute="centerX" id="Hk2-dz-TiD"/>
-                                                        <constraint firstAttribute="trailing" secondItem="bFh-jl-GUp" secondAttribute="trailing" id="Mcl-n2-kdq"/>
-                                                        <constraint firstItem="bFh-jl-GUp" firstAttribute="centerY" secondItem="3jc-Ec-5gE" secondAttribute="centerY" id="gyT-ad-d8R"/>
-                                                        <constraint firstItem="bFh-jl-GUp" firstAttribute="leading" secondItem="zYk-Cz-kGh" secondAttribute="leading" id="kUH-H8-Wnc"/>
-                                                        <constraint firstItem="bFh-jl-GUp" firstAttribute="top" secondItem="zYk-Cz-kGh" secondAttribute="top" id="uAy-68-9Im"/>
-                                                    </constraints>
-                                                </view>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="zYk-Cz-kGh" secondAttribute="bottom" constant="16" id="2Tg-39-zPi"/>
-                                            <constraint firstItem="zYk-Cz-kGh" firstAttribute="top" secondItem="cqk-7s-jAd" secondAttribute="top" constant="16" id="Vts-3E-l9h"/>
-                                            <constraint firstAttribute="trailing" secondItem="zYk-Cz-kGh" secondAttribute="trailing" constant="16" id="aUd-gz-e36"/>
-                                            <constraint firstItem="zYk-Cz-kGh" firstAttribute="leading" secondItem="cqk-7s-jAd" secondAttribute="leading" constant="16" id="gJd-PQ-WX5"/>
-                                        </constraints>
-                                        <connections>
-                                            <outlet property="imgHeader" destination="bFh-jl-GUp" id="iSv-cY-QID"/>
-                                            <outlet property="viewContainer" destination="zYk-Cz-kGh" id="qiv-MS-0xe"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -2124,6 +2158,26 @@ Now I have the knowledge in the following skills:
                                                                     <exclude reference="rnq-Os-Rbw"/>
                                                                 </mask>
                                                             </variation>
+                                                        </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="design" translatesAutoresizingMaskIntoConstraints="NO" id="Wbz-mt-liE">
+                                                            <rect key="frame" x="0.0" y="39" width="317" height="267"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Before working with IT, I have 5 years experience with Graphic Design and I have the knowledge in the following skills:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dka-Hh-UZU">
+                                                            <rect key="frame" x="8" y="322" width="301" height="49"/>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                                            <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ph-r6-Cdt">
+                                                            <rect key="frame" x="8" y="387" width="301" height="82"/>
+                                                            <string key="text">• Adobe Photoshop
+• Corel Draw
+• Photography
+• Typography
+• Creativity</string>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                                            <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2422,6 +2476,26 @@ Now I have the knowledge in the following skills:
                                                                 </mask>
                                                             </variation>
                                                         </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="design" translatesAutoresizingMaskIntoConstraints="NO" id="qsr-6P-KGm">
+                                                            <rect key="frame" x="0.0" y="39" width="317" height="267"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Before working with IT, I have 5 years experience with Graphic Design and I have the knowledge in the following skills:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDq-FY-i2H">
+                                                            <rect key="frame" x="8" y="322" width="301" height="49"/>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                                            <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4V7-hD-icu">
+                                                            <rect key="frame" x="8" y="387" width="301" height="82"/>
+                                                            <string key="text">• Adobe Photoshop
+• Corel Draw
+• Photography
+• Typography
+• Creativity</string>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                                            <color key="textColor" red="0.27229324490000001" green="0.27229324490000001" blue="0.27229324490000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
@@ -2672,11 +2746,14 @@ Now I have the knowledge in the following skills:
         <image name="TechnicalSkills" width="750" height="919"/>
         <image name="aboutMeBackground" width="750" height="919"/>
         <image name="arrowDown" width="24" height="15"/>
+        <image name="bepid" width="1204" height="1012"/>
+        <image name="books" width="1698" height="1131"/>
         <image name="coding" width="3264" height="2448"/>
         <image name="design" width="1500" height="939"/>
         <image name="downloadBadge" width="500" height="148"/>
         <image name="facelette01" width="1630" height="1089"/>
         <image name="flockr01" width="1084" height="724"/>
+        <image name="graduate_caps" width="1333" height="1000"/>
         <image name="me" width="1000" height="1500"/>
         <image name="music01" width="1947" height="1300"/>
         <image name="pink01" width="1951" height="1300"/>
