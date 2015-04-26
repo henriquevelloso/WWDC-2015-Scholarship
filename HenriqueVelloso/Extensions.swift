@@ -83,7 +83,7 @@ extension UIImageView {
             var blur = UIBlurEffect(style: UIBlurEffectStyle.Light)
             var blurView = UIVisualEffectView(effect: blur)
             blurView.frame =  CGRectMake(self.bounds.origin.x, self.bounds.origin.y, 800, 100) // self.bounds
-            blurView.alpha = 0.3
+            blurView.alpha = 0.4
             self.addSubview(blurView)
         
     }

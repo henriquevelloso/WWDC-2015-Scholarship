@@ -93,7 +93,7 @@ class SkillsViewController: UIViewController , UICollectionViewDelegate, UIColle
     
     func setupCollectionView () {
         
-        self.pageControl.numberOfPages = 4
+        self.pageControl.numberOfPages = 2
         self.pageControl.currentPage = 0
         
         var flowLayout : UICollectionViewFlowLayout = UICollectionViewFlowLayout()
@@ -131,7 +131,7 @@ class SkillsViewController: UIViewController , UICollectionViewDelegate, UIColle
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 4
+        return 2
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
