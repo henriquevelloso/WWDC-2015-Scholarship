@@ -25,9 +25,9 @@ class AboutPage2CollectionViewCell: UICollectionViewCell {
         
         self.imgHeader.blurImage()
         
-        self.map.zoomEnabled = false;
+        self.map.zoomEnabled = true;
         self.map.scrollEnabled = false;
-        self.map.userInteractionEnabled = false;
+        self.map.userInteractionEnabled = true;
         
         var track = CLLocationCoordinate2D()
         track.latitude = -30.042687;

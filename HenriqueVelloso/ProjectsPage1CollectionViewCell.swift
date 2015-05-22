@@ -47,7 +47,12 @@ class ProjectsPage1CollectionViewCell:  UICollectionViewCell {
         
     }
     
-    
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+        
+        imgTrapRaider.startAnimating()
+
+        
+    }
     
     
 }
